@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LuxApprev1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map_btn_label">Show Location</string>
+    <string name="frag_btn_label">What is Lux?</string>
+    <string name="frag_btn_label2">Result</string>
+    <string name="res_frag_title">Result</string>
+    <string name="res_frag_date_label">Date :</string>
+    <string name="res_frag_time_label">Time :</string>
+    <string name="res_frag_lux_label" translatable="false">Lux :</string>
+    <string name="res_frag_loc_label">Location :</string>
+    <string name="desc_frag_title">About Lux</string>
+    <string name="desc_frag_text">The lux (symbol: lx) is the unit of illuminance, or luminous flux per unit area, in the International System of Units (SI). It is equal to one lumen per square metre. In photometry, this is used as a measure of the intensity, as perceived by the human eye, of light that hits or passes through a surface. It is analogous to the radiometric unit watt per square metre, but with the power at each wavelength weighted according to the luminosity function, a model of human visual brightness perception, standardized by the CIE and ISO.</string>
+    <string name="permission_denied_label">Permission denied!</string>
+    <string name="get_location_failed_label">Unable to get location.</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="map_marker_label">You are here.</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="widget_facts_morning">Did you know that illuminance level in the morning ranges from 0 - 400 Lux?</string>
+    <string name="widget_facts_noon">Illuminance level on brightest sunlight can reach 120000 Lux!</string>
+    <string name="widget_facts_afternoon">Typical illuminance level on sunset are 400 Lux</string>
+    <string name="widget_facts_night">Even on brightest moonlight when sky is clear, the illuminance level are still below 1.</string>
+    <string name="widget_greet_morning">Good Morning!</string>
+    <string name="widget_greet_afternoon">Good Afternoon!</string>
+    <string name="widget_greet_evening">Good Evening!</string>
+    <string name="widget_facts_night">Even on brightest moonlight when sky is clear, the illuminance level are still below 1.</string>
+</resources>

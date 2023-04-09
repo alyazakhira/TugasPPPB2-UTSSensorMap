@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LuxApprev1</string>
+    <string name="hello_blank_fragment">Halo fragment kosong</string>
+    <string name="map_btn_label">Lokasi</string>
+    <string name="frag_btn_label">Apa itu Lux?</string>
+    <string name="frag_btn_label2">Hasil</string>
+    <string name="res_frag_title">Hasil</string>
+    <string name="res_frag_date_label">Tanggal :</string>
+    <string name="res_frag_time_label">Waktu :</string>
+    <string name="res_frag_loc_label">Lokasi :</string>
+    <string name="desc_frag_title">Tentang Lux</string>
+    <string name="desc_frag_text">Lux (simbol: lx) adalah satuan pencahayaan, atau fluks cahaya per satuan luas, dalam Sistem Satuan Internasional (SI). Itu sama dengan satu lumen per meter persegi. Dalam fotometri, ini digunakan sebagai ukuran intensitas, seperti yang dirasakan oleh mata manusia, cahaya yang mengenai atau melewati suatu permukaan. Ini analog dengan unit radiometrik watt per meter persegi, tetapi dengan kekuatan pada setiap panjang gelombang yang dibobotkan sesuai dengan fungsi luminositas, model persepsi kecerahan visual manusia, yang distandarisasi oleh CIE dan ISO.</string>
+    <string name="permission_denied_label">Perizinan ditolak!</string>
+    <string name="get_location_failed_label">Tidak dapat mengambil lokasi.</string>
+    <string name="map_marker_label">Anda berada di sini.</string>
+    <string name="add_widget">Tambahkan widget.</string>
+    <string name="app_widget_description">Ini adalah deskripsi widget aplikasi.</string>
+    <string name="widget_facts_morning">Apakah Anda tahu bahwa tingkat pencahayaan di pagi hari berkisar antara 0-400 Lux?</string>
+    <string name="widget_facts_noon">Tingkat pencahayaan ketika sinar matahari paling terang dapat mencapai 120000 Lux!</string>
+    <string name="widget_facts_afternoon">Rata-rata tingkat pencahayaan ketika matahari terbenam adalah 400 Lux.</string>
+    <string name="widget_facts_night">Bahkan ketika bulan bersinar paling terang di langit yang cerah, tingkat pencahayaannya masih dibawah 1.</string>
+    <string name="widget_greet_morning">Selamat pagi!</string>
+    <string name="widget_greet_afternoon">Selamat siang!</string>
+    <string name="widget_greet_evening">Selamat malam!</string>
+</resources>

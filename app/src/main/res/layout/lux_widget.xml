@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.LuxApprev1.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.LuxApprev1.AppWidgetContainer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_greet_morning"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/widget_title"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widget_title"
+        android:id="@+id/widget_fact"
+        android:text="@string/widget_facts_morning"/>
+
+</RelativeLayout>
