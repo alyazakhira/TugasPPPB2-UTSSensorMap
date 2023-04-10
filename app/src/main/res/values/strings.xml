@@ -25,5 +25,4 @@
     <string name="widget_greet_morning">Good Morning!</string>
     <string name="widget_greet_afternoon">Good Afternoon!</string>
     <string name="widget_greet_evening">Good Evening!</string>
-    <string name="widget_facts_night">Even on brightest moonlight when sky is clear, the illuminance level are still below 1.</string>
 </resources>

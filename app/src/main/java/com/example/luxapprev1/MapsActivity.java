@@ -2,6 +2,7 @@ package com.example.luxapprev1;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -42,7 +43,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // add a marker on current device position
         LatLng myMarker = new LatLng(currentLat, currentLong);
-        mMap.addMarker(new MarkerOptions().position(myMarker).title(String.valueOf(R.string.map_marker_label)));
+        Context context = MapsActivity.this;
+        mMap.addMarker(new MarkerOptions().position(myMarker).title(context.getString(R.string.map_marker_label)));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myMarker,19));
     }
 }
