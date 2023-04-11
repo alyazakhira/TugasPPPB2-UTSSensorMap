@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private Button fragBtn;
     private TextView luxMainView;
 
-
     // sensor related
     private SensorManager sensorManager;
     private Sensor sensorLight;
@@ -178,12 +177,15 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         // when location service enabled, get location
         // when location service not enabled, open setting
         if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) || locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)){
+            // action when location retrieve has completed
             fusedLocationProviderClient.getLastLocation().addOnCompleteListener(task -> {
                 Location location = task.getResult();
+
                 if (location != null) {
                     // set latitude & longitude
                     currentLatitude = location.getLatitude();
                     currentLongitude = location.getLongitude();
+
                 } else {
                     // when above method don't get any result
                     LocationRequest locationRequest = new LocationRequest()
@@ -205,6 +207,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     };
                     fusedLocationProviderClient.requestLocationUpdates(locationRequest, locationCallback, Looper.myLooper());
                 }
+
             });
         } else {
             startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
