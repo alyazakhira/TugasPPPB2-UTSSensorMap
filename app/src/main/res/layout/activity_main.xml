@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="30dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/black_background">
 
     <LinearLayout
         android:id="@+id/linLay1"
@@ -23,7 +24,8 @@
             android:layout_weight="1"
             android:text="0.00"
             android:textAlignment="textEnd"
-            android:textSize="55sp" />
+            android:textSize="55sp"
+            android:textColor="@color/yellow_header"/>
 
         <TextView
             android:id="@+id/lux_label"
@@ -33,7 +35,8 @@
             android:layout_weight="3"
             android:text="Lx"
             android:textAlignment="textStart"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:textColor="@color/yellow_header"/>
 
     </LinearLayout>
 
@@ -60,7 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
-            android:text="@string/map_btn_label"/>
+            android:text="@string/map_btn_label"
+            android:backgroundTint="@color/blue_button"/>
 
         <Button
             android:id="@+id/frag_btn"
@@ -68,7 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_weight="1"
-            android:text="@string/frag_btn_label"/>
+            android:text="@string/frag_btn_label"
+            android:backgroundTint="@color/blue_button"/>
 
     </LinearLayout>
 

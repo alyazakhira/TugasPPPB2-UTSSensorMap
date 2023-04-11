@@ -20,6 +20,8 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Looper;
 import android.provider.Settings;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -237,5 +239,24 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         fragmentTransaction.add(R.id.frag_layout, resFrag, "RESULT_FRAG").addToBackStack(null).commit();
         fragBtn.setText(R.string.frag_btn_label);
         isResultShowed = true;
+    }
+
+    // inflate the menu
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_item, menu);
+        return true;
+    }
+
+    // do action on menu selected
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.action_language) {
+            Intent languageIntent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
+            startActivity(languageIntent);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

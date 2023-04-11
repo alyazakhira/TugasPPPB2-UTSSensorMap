@@ -25,4 +25,5 @@
     <string name="widget_greet_morning">Good Morning!</string>
     <string name="widget_greet_afternoon">Good Afternoon!</string>
     <string name="widget_greet_evening">Good Evening!</string>
+    <string name="menu_item_language">Language</string>
 </resources>

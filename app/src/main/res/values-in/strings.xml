@@ -23,4 +23,5 @@
     <string name="widget_greet_morning">Selamat pagi!</string>
     <string name="widget_greet_afternoon">Selamat siang!</string>
     <string name="widget_greet_evening">Selamat malam!</string>
+    <string name="menu_item_language">Bahasa</string>
 </resources>
