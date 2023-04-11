@@ -10,6 +10,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.example.luxapprev1.databinding.ActivityMapsBinding;
 
@@ -40,6 +41,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+
+        // style map
+        mMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(this, R.raw.style));
 
         // add a marker on current device position
         LatLng myMarker = new LatLng(currentLat, currentLong);
